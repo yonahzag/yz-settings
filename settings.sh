@@ -20,7 +20,6 @@ gsettings set org.gnome.desktop.interface clock-format '24h'
 echo "installing gits"
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme
 git clone https://github.com/alvatip/Nordzy-icon
-git clone https://github.com/alvatip/Nordzy-cursors
 git clone --recursive https://github.com/andresgongora/synth-shell.git
 clear
 ######
