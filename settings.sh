@@ -38,7 +38,6 @@ sudo apt install plank
 rm -r ~/.config/synth-shell
 mv synth-shell ~/.config/synth-shell
 
-rm-r ~/.config/plank
 mv plank ~/.config/plank
 rm -r ~/.local/share/plank
 mv plank-themes/ ~/.local/share/
