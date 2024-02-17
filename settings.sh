@@ -36,6 +36,8 @@ clear
 sudo apt install fonts-powerline
 sudo apt install plank
 
+./synth-shell/install.sh
+
 rm -r -f ~/.config/synth-shell
 mv synth-shell ~/.config/synth-shell
 
