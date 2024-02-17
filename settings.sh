@@ -4,9 +4,10 @@
 #set up terminal aliases
 
 mv .bash_aliases ~/
-source ~/.bash_aliases
 sudo rm ~/.bashrc
 mv .bashrc ~/
+source .bash_aliases
+source .bashrc
 ########################
 #set background
 echo "set background"
@@ -35,11 +36,11 @@ clear
 sudo apt install fonts-powerline
 sudo apt install plank
 
-rm -r ~/.config/synth-shell
+rm -r -f ~/.config/synth-shell
 mv synth-shell ~/.config/synth-shell
 
 mv plank ~/.config/plank
-rm -r ~/.local/share/plank
+rm -r -f ~/.local/share/plank
 mv plank-themes/ ~/.local/share/
 mv ~/.local/share/plank-themes ~/.local/share/plank
 mv plank.desktop ~/.config/autostart/
