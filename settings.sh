@@ -2,7 +2,8 @@
 # Y.Z. 2024
 
 #set up terminal aliases
-
+mv bash_aliases .bash_aliases
+mv bashrc .bashrc
 mv .bash_aliases ~/
 sudo rm ~/.bashrc
 mv .bashrc ~/
